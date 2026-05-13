@@ -1,51 +1,180 @@
+````md
+# Alice-In-Borderland
+
+An educational rehabilitation game developed using Microsoft Kinect and Unity3D for real-time body tracking and gesture-based interaction. The system helps patients perform physical therapy exercises through an immersive controller-free gaming experience.
+
+---
+
 # Table of Contents
-1.  [Requirements](#requirements) - Software required for this repo.
-2.  [Getting Started](#getting-started) - Start here if you are new to Kinect in Unity.
-3.  [Examples Included In This Repo](#examples-included-in-this-repo) - Go here to review the examples in this repo.
-4.  [SDK Tools](#sdk-tools) - What is installed with the Kinect SDK.
-5.  [Additional Tutorials](#additional-tutorials) - See this if you want to expand your knowledge.
-6.  [Support](#support) - Have questions?  Run into an issue?  Ask here.
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Requirements](#requirements)
+5. [Installation & Setup](#installation--setup)
+6. [How to Run](#how-to-run)
+7. [Project Screenshots](#project-screenshots)
+8. [Kinect Integration](#kinect-integration)
+9. [Team Members](#team-members)
+10. [Future Improvements](#future-improvements)
+
+---
+
+# Project Overview
+
+Alice-In-Borderland is a Kinect-based rehabilitation game designed to improve physical movement, engagement, and motor coordination through interactive gameplay. The game uses Microsoft Kinect v2 sensor technology to track body joints and recognize player gestures in real time.
+
+The project combines healthcare rehabilitation concepts with gamified experiences to create an enjoyable therapy environment for users.
+
+---
+
+# Features
+
+- Real-time body tracking using Kinect v2
+- Gesture-based player movement
+- Controller-free interaction system
+- Multiple interactive game environments
+- Level unlocking system
+- Rehabilitation-focused gameplay mechanics
+- Immersive 3D Unity environment
+- AI-based movement handling and interaction
+
+---
+
+# Technologies Used
+
+- Unity 3D
+- Microsoft Kinect SDK v2
+- Kinect v2 Unity Plugin
+- C#
+- Visual Studio
+- Blender (3D Assets)
+- GitHub
+
+---
 
 # Requirements
--  [Unity](http://unity3d.com)
--  [Kinect SDK](http://www.microsoft.com/en-us/download/details.aspx?id=44561)
--  [Kinect v2 Plugin for Unity](http://go.microsoft.com/fwlink/?LinkID=513177)
--  [Visual Studio Community](http://visualstudio.com)
 
-# Getting Started
-This section will show you the basics of setting up your environment and running the example project from the Kinect v2 Unity plugin.  If you are already familiar with this process, you can proceed to [Examples Included In This Repo](#examples-included-in-this-repo) below.
+Before running the project, install the following software:
 
-1.  Download and install the [Kinect SDK](http://www.microsoft.com/en-us/download/details.aspx?id=44561)
-2.  Download and unzip the [Kinect v2 Plugin for Unity](http://go.microsoft.com/fwlink/?LinkID=513177)
-3.  Create a new project in Unity 5.
-![Screenshot](https://glitchbeam.blob.core.windows.net/media/2015/05/kinect00.png)
+- Unity 3D
+- Microsoft Kinect SDK v2
+- Kinect v2 Unity Plugin
+- Visual Studio Community
+- Windows 10/11
+- Kinect v2 Sensor + Adapter
 
-4.  Double-click the file 'Kinect.2.0.1410.19000.unitypackage'.
-![Screenshot](https://glitchbeam.blob.core.windows.net/media/2015/05/kinect01.png)
+---
 
-5.  Import all of the items into your newly created Unity project.
-![Screenshot](https://glitchbeam.blob.core.windows.net/media/2015/05/kinect02.png)
+# Installation & Setup
 
-6.  Drag folder 'KinectView', located in the unzipped Kinect v2 Plugin folder, into your root Unity Asset folder.  Expand the 'KinectView' folder and launch 'MainScene'.  Press play to view RGB, IR, Joints, and Depth Mesh.
-![Screenshot](https://glitchbeam.blob.core.windows.net/media/2015/05/kinect03.png)
+## 1. Install Kinect SDK
 
-# Examples Included In This Repo
-1.  Cursor - A cursor is mapped to a hand joint.  Box color changes when cursor collides.
-2.  Body Particles - ParticleSystems spawn and follow joint positions.
-3.  Player Controller - Player horizontal input is mapped to left & right hands.  This technique is used on the following games: [Hypernaut](http://glitchbeam.com/games/hypernaut/) & [Horizon](http://glitchbeam.com/games/horizon/)
+Download and install Microsoft Kinect SDK v2.
 
-# SDK Tools
-The Kinect v2 SDK installs the following software:
+## 2. Install Unity
 
--  Kinect Studio
-  * Record and playback.  Playback can simulate a physical Kinect.
-  * Use for testing hardware features.
--   SDK Browser - Has code samples for all hardware features.
+Install Unity Hub and Unity Editor.
 
-# Additional Tutorials
--  Kinect v2 Joint Map - [Guide](http://glitchbeam.com/kinect-v2-joint-map/)
--  Unity & Visual Studio - [Tutorial](http://glitchbeam.com/using-visual-studio-2013-for-main-unity-ide/)
--  Unity Learn Section - [Tutorials](http://unity3d.com/learn/)
+## 3. Clone Repository
 
-# Support
-Please create an [issue ticket](https://github.com/jasonrwalters/Unity_Kinect/issues) for questions and issues.  Thank you.
+```bash
+git clone https://github.com/Talalhaider123/Alice-In-Borderland.git
+```
+
+## 4. Open Project
+
+Open the project folder in Unity Hub.
+
+## 5. Connect Kinect Sensor
+
+Attach Kinect v2 sensor and ensure drivers are properly installed.
+
+---
+
+# How to Run
+
+1. Open Unity Project
+2. Load Main Scene
+3. Connect Kinect Device
+4. Press Play in Unity
+5. Start body tracking and gameplay
+
+---
+
+# Project Screenshots
+
+## Main Menu
+![Main Menu](Screenshots/gameplay1.png)
+
+## Kinect 2D Tracking
+![Kinect 2D](Screenshots/kinect%202d.png)
+
+## Kinect Full Body Detection
+![Kinect Full](Screenshots/kinect%20full.png)
+
+## Kinect 3D Tracking
+![Kinect 3D](Screenshots/kinect3d.png)
+
+## Level Lock System
+![Lock System](Screenshots/lock.png)
+
+## Gameplay Environment
+![Gameplay](Screenshots/moving.png)
+
+## Mosque Environment
+![Mosque Scene](Screenshots/Screenshot%202026-05-02%20205306.png)
+
+## Final Poster
+![Poster](Screenshots/WhatsApp%20Image%202026-05-14%20at%201.24.03%20AM.jpeg)
+
+---
+
+# Kinect Integration
+
+The project integrates Microsoft Kinect v2 for:
+
+- Skeleton Tracking
+- Joint Detection
+- Gesture Recognition
+- Player Movement Mapping
+- Real-Time Motion Capture
+- Rehabilitation Exercise Monitoring
+
+The Kinect sensor enables a fully controller-free gaming experience for patients and users.
+
+---
+
+# Team Members
+
+- Talal Haider
+- Final Year Project Team
+
+---
+
+# Future Improvements
+
+- Multiplayer rehabilitation mode
+- AI exercise recommendation system
+- Online patient progress monitoring
+- Voice command integration
+- Additional therapy exercises
+- Advanced gesture recognition
+- VR compatibility support
+
+---
+
+# Repository
+
+GitHub Repository:
+
+```text
+https://github.com/Talalhaider123/Alice-In-Borderland
+```
+
+---
+
+# License
+
+This project is developed for educational and academic purposes as part of a Final Year Project (FYP).
+
+````
