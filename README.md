@@ -133,13 +133,13 @@ Download and watch the gameplay video below:
 
 ## Kinect 2D Tracking
 
-![Kinect 2D](screenshots/kinect2d.png)
+![Kinect 2D](screenshots/kinect%202d.png)
 
 ---
 
 ## Kinect Full Body Detection
 
-![Kinect Full](screenshots/kinectfull.png)
+![Kinect Full](screenshots/kinect%20full.png)
 
 ---
 
@@ -163,13 +163,13 @@ Download and watch the gameplay video below:
 
 ## Mosque Environment
 
-![Mosque Scene](screenshots/Screenshot%202026-05-02%20205306.png)
+![Mosque Scene](screenshots/1.png)
 
 ---
 
 ## Final Poster
 
-![Poster](screenshots/WhatsApp%20Image%202026-05-14%20at%201.24.03%20AM.jpeg)
+![Poster](screenshots/2.jpeg)
 
 ---
 
@@ -190,9 +190,10 @@ The Kinect sensor enables a fully controller-free gaming experience for rehabili
 
 # Team Members
 
-- Talal Haider
 - Final Year Project Team
-
+- Talal Haider
+- Rehan Ali
+- Syed Hassan Mujtaba
 ---
 
 # Future Improvements
