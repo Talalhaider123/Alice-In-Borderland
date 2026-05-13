@@ -191,7 +191,9 @@ The Kinect sensor enables a fully controller-free gaming experience for rehabili
 - Rehan Ali
 - Syed Hassan Mujtaba
 ---
+## Team Presentation
 
+![Team](screenshots/3.PNG)
 # Future Improvements
 
 - Multiplayer rehabilitation mode
