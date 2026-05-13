@@ -125,10 +125,6 @@ Download and watch the gameplay video below:
 
 # Project Screenshots
 
-## Main Menu
-
-![Main Menu](screenshots/gameplay1.png)
-
 ---
 
 ## Kinect 2D Tracking
