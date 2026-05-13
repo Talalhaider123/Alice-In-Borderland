@@ -1,3 +1,5 @@
+Here is the complete corrected README for your GitHub project:
+
 ````md
 # Alice-In-Borderland
 
@@ -23,9 +25,9 @@ An educational rehabilitation game developed using Microsoft Kinect and Unity3D 
 
 # Project Overview
 
-Alice-In-Borderland is a Kinect-based rehabilitation game designed to improve physical movement, coordination, and engagement through interactive gameplay. The game uses Microsoft Kinect v2 sensor technology to track body joints and recognize user gestures in real time.
+Alice-In-Borderland is a Kinect-based rehabilitation game designed to improve physical movement, coordination, and engagement through interactive gameplay. The project uses Microsoft Kinect v2 sensor technology to track body joints and recognize user gestures in real time.
 
-The project combines healthcare rehabilitation concepts with gamified experiences to create an enjoyable therapy environment for users and patients.
+The system combines healthcare rehabilitation concepts with gamified experiences to create an immersive and enjoyable therapy environment for users and patients.
 
 ---
 
@@ -107,28 +109,28 @@ Attach Kinect v2 sensor and ensure drivers are properly installed.
 # Project Screenshots
 
 ## Main Menu
-![Main Menu](Screenshots/gameplay1.png)
+![Main Menu](screenshots/gameplay1.png)
 
 ## Kinect 2D Tracking
-![Kinect 2D](Screenshots/kinect2d.png)
+![Kinect 2D](screenshots/kinect2d.png)
 
 ## Kinect Full Body Detection
-![Kinect Full](Screenshots/kinectfull.png)
+![Kinect Full](screenshots/kinectfull.png)
 
 ## Kinect 3D Tracking
-![Kinect 3D](Screenshots/kinect3d.png)
+![Kinect 3D](screenshots/kinect3d.png)
 
 ## Level Lock System
-![Lock System](Screenshots/lock.png)
+![Lock System](screenshots/lock.png)
 
 ## Gameplay Environment
-![Gameplay](Screenshots/moving.png)
+![Gameplay](screenshots/moving.png)
 
 ## Mosque Environment
-![Mosque Scene](Screenshots/mosque.png)
+![Mosque Scene](screenshots/mosque.png)
 
 ## Final Poster
-![Poster](Screenshots/poster.jpeg)
+![Poster](screenshots/poster.jpeg)
 
 ---
 
