@@ -1,9 +1,8 @@
-Here is the complete corrected README for your GitHub project:
-
-````md
 # Alice-In-Borderland
 
-An educational rehabilitation game developed using Microsoft Kinect and Unity3D for real-time body tracking and gesture-based interaction. The system helps patients perform physical therapy exercises through an immersive controller-free gaming experience.
+An educational rehabilitation game developed using Microsoft Kinect and Unity3D for real-time body tracking and gesture-based interaction.
+
+The project combines healthcare rehabilitation with immersive gameplay to create a controller-free therapy experience using Kinect body tracking technology.
 
 ---
 
@@ -15,33 +14,43 @@ An educational rehabilitation game developed using Microsoft Kinect and Unity3D 
 4. [Requirements](#requirements)
 5. [Installation & Setup](#installation--setup)
 6. [How to Run](#how-to-run)
-7. [Project Screenshots](#project-screenshots)
-8. [Kinect Integration](#kinect-integration)
-9. [Team Members](#team-members)
-10. [Future Improvements](#future-improvements)
-11. [License](#license)
+7. [Gameplay Video](#gameplay-video)
+8. [Project Screenshots](#project-screenshots)
+9. [Kinect Integration](#kinect-integration)
+10. [Team Members](#team-members)
+11. [Future Improvements](#future-improvements)
+12. [Repository](#repository)
+13. [License](#license)
 
 ---
 
 # Project Overview
 
-Alice-In-Borderland is a Kinect-based rehabilitation game designed to improve physical movement, coordination, and engagement through interactive gameplay. The project uses Microsoft Kinect v2 sensor technology to track body joints and recognize user gestures in real time.
+Alice-In-Borderland is a Kinect-based rehabilitation game designed to improve physical movement, coordination, and patient engagement through interactive gameplay.
 
-The system combines healthcare rehabilitation concepts with gamified experiences to create an immersive and enjoyable therapy environment for users and patients.
+The system uses Microsoft Kinect v2 sensor technology to:
+
+- Track body joints
+- Detect movement and gestures
+- Control gameplay without controllers
+- Monitor rehabilitation exercises in real-time
+
+The game environment provides immersive scenes and interactive activities for therapy and exercise training.
 
 ---
 
 # Features
 
-- Real-time body tracking using Kinect v2
-- Gesture-based player movement
-- Controller-free interaction system
-- Interactive rehabilitation gameplay
-- Multiple immersive environments
-- Level unlocking system
-- AI-based interaction mechanics
-- Full-body movement recognition
-- Unity 3D game environment
+- Real-time body tracking
+- Full-body motion detection
+- Gesture-controlled gameplay
+- Controller-free interaction
+- Interactive rehabilitation exercises
+- Multiple gameplay environments
+- Lock/unlock level system
+- Unity 3D immersive environment
+- Kinect skeleton tracking
+- Real-time player movement mapping
 
 ---
 
@@ -59,7 +68,7 @@ The system combines healthcare rehabilitation concepts with gamified experiences
 
 # Requirements
 
-Before running the project, install the following software:
+Install the following software before running the project:
 
 - Unity 3D
 - Microsoft Kinect SDK v2
@@ -92,7 +101,7 @@ Open the project folder using Unity Hub.
 
 ## 5. Connect Kinect Sensor
 
-Attach Kinect v2 sensor and ensure drivers are properly installed.
+Attach Kinect v2 sensor and ensure drivers are installed correctly.
 
 ---
 
@@ -106,31 +115,61 @@ Attach Kinect v2 sensor and ensure drivers are properly installed.
 
 ---
 
+# Gameplay Video
+
+Download and watch the gameplay video below:
+
+[▶ Watch Gameplay Video](video/video.mp4)
+
+---
+
 # Project Screenshots
 
 ## Main Menu
+
 ![Main Menu](screenshots/gameplay1.png)
 
+---
+
 ## Kinect 2D Tracking
+
 ![Kinect 2D](screenshots/kinect2d.png)
 
+---
+
 ## Kinect Full Body Detection
+
 ![Kinect Full](screenshots/kinectfull.png)
 
+---
+
 ## Kinect 3D Tracking
+
 ![Kinect 3D](screenshots/kinect3d.png)
 
+---
+
 ## Level Lock System
+
 ![Lock System](screenshots/lock.png)
 
+---
+
 ## Gameplay Environment
+
 ![Gameplay](screenshots/moving.png)
 
+---
+
 ## Mosque Environment
-![Mosque Scene](screenshots/mosque.png)
+
+![Mosque Scene](screenshots/Screenshot%202026-05-02%20205306.png)
+
+---
 
 ## Final Poster
-![Poster](screenshots/poster.jpeg)
+
+![Poster](screenshots/WhatsApp%20Image%202026-05-14%20at%201.24.03%20AM.jpeg)
 
 ---
 
@@ -181,5 +220,3 @@ https://github.com/Talalhaider123/Alice-In-Borderland
 # License
 
 This project is developed for educational and academic purposes as part of a Final Year Project (FYP).
-
-````
